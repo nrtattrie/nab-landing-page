@@ -132,6 +132,11 @@ h2 {
   font-weight: 800;
 }
 
+#how-it-works h2 span {
+  display: block;
+  white-space: nowrap;
+}
+
 h3 {
   margin-bottom: 0.7rem;
   font-size: 1.1rem;
@@ -153,6 +158,13 @@ h3 {
 .support-card p,
 .site-footer p,
 .hero-card-copy p {
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+
+.hero-note {
+  max-width: 34rem;
+  margin: 1.2rem 0 0;
   color: var(--ink-soft);
   line-height: 1.7;
 }
